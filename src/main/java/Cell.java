@@ -1,10 +1,3 @@
-import java.util.Random;
-
-enum LiveState {
-    ALIVE,
-    DEAD
-}
-
 class Cell {
     private LiveState liveState;
 

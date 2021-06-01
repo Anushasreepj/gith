@@ -1,0 +1,4 @@
+enum LiveState {
+    ALIVE,
+    DEAD
+}
