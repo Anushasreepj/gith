@@ -1,5 +1,6 @@
 class Cell {
     private LiveState liveState;
+    private LiveState nextState;
 
     public Cell() {
         this.liveState = LiveState.DEAD;
