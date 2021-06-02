@@ -57,17 +57,17 @@ public class UniverseTest {
     public void getsCorrectAmountOfNeighboursForCellsOnWallsButNotCorners(){
         Universe testUniverse = createTestUniverse();
 
-        //Top
+        //Right
         assertEquals(3, testUniverse.getAliveNeighbours(0,1));
 
-        //Bottom
+        //Left
         assertEquals(3, testUniverse.getAliveNeighbours(2,1));
 
-        //Right
-        assertEquals(3, testUniverse.getAliveNeighbours(1,2));
+        //top
+        assertEquals(5, testUniverse.getAliveNeighbours(1,2));
 
-        //Left
-        assertEquals(3, testUniverse.getAliveNeighbours(1,0));
+        //bottom
+        assertEquals(5, testUniverse.getAliveNeighbours(1,0));
     }
 
 
